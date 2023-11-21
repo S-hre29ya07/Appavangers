@@ -1,0 +1,37 @@
+.outer-wrapper {
+  background-color: white;
+  padding: 10px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 130px);
+  grid-auto-rows: 180px;
+  grid-gap: 10px;
+}
+
+
+.pass {
+  background-color: rgb(46, 171, 46, 0.2);
+  border-radius: 15px;
+}
+
+.fail {
+  background-color: rgb(228, 88, 88, 0.2);
+  border-radius: 15px;
+}
+
+.not-executed {
+  background-color: rgb(241, 241, 94, 0.2);
+  border-radius: 15px;
+}
+
+.total-test {
+  background-color: rgb(130, 198, 226, 0.2);
+  border-radius: 15px;
+}
+.pass, .fail, .not-executed, .total-test {
+  text-align: left;
+  margin-top: 25px;
+  padding: 10px;
+}

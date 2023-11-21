@@ -1,0 +1,31 @@
+<style>
+  .rotate-90 {
+    transform: rotate(90deg);
+  }
+</style>
+
+<div class="container-fluid">
+  <div class="row custom-row">
+    <div class="col-md-6">
+      <app-test-execution-badges ></app-test-execution-badges>
+    </div>
+    <div class="col-md-6">
+      <app-total-api ></app-total-api>
+    </div>
+  </div>
+
+  <div class="row custom-row">
+    <div class="col-md-6">
+      <app-test-execution-pie ></app-test-execution-pie>
+    </div>
+    <div class="col-md-6 rotate-90">
+      <app-most-failed-api ></app-most-failed-api>
+    </div>
+  </div>
+
+  <div class="row custom-row">
+    <div class="col-md-12">
+      <app-avg-response-time ></app-avg-response-time>
+    </div>
+  </div>
+</div>
